@@ -1,0 +1,1928 @@
+
+version 13.0.0
+
+    Rewrite All 
+
+version 10.6.0
+
+    Correspond OSX(Intel, Homebrew)
+
+version 10.5.7
+
+    Fixed String.insert(int, char) bug
+
+version 10.4.6
+
+    Fixed block size bug
+
+version 10.4.5
+
+    Faster compile speed.
+
+version 10.4.4
+
+    Finished to implement C-FFI on JIT.
+
+version 10.4.3
+
+    Finished to implement C-FFI on JIT.
+
+version 10.4.2
+
+    Finished to implement C-FFI on JIT.
+
+    Continue to implement C Header Parser.
+
+version 10.4.1
+
+    Continue to implement C-FFI on JIT.
+
+version 10.4.0
+
+    Continue to implement C-FFI on JIT.
+
+version 10.3.8
+
+    Some chages
+
+version 10.3.7
+
+    Some chages
+
+version 10.3.6
+
+    Fixed the bug on PC
+
+version 10.3.5
+
+    Finish curses library implement. I could't have suported all routines yet. It's too many....
+
+version 10.3.4
+
+    Continue to start curses library support.
+    
+version 10.3.3
+
+    Continue to start curses library support.
+
+version 10.3.2
+
+    normal block local variable bug.
+
+    The case of `for(i:=0; i<5; i++) {}`, the i variable is inner block scope.
+
+    for it in {1,2,3} { it.toString().println(); } can be ruunned.
+    
+version 10.3.1
+
+    new Editor sample.
+
+version 10.3.0
+
+    Added List.iterator.
+
+version 10.2.9
+
+    Bug fix of JIT. a:long = 0x02; Clover.test("BOOL test",  (a & 0x02).to_bool); The code is failed before version 10.2.9
+
+version 10.2.8
+
+    Bug fix.
+
+version 10.2.7
+
+    Class.getNoneClassMethod, Class.getClassMethod, Class.getClassFieldsを追加。
+
+version 10.2.7
+
+    Appended Class.getNoneClassMethod, Class.getClassMethod, Class.getClassFields.
+
+version 10.2.6
+
+    Clover.loadを追加。    
+
+version 10.2.6
+
+    Appended Clover.load.
+
+version 10.2.5
+
+    GCはユーザーがClover.gc()を呼ばないと呼び出されないようになりました。主にパフォーマンスが理由です。メインループでClover.compaction()とともに1000回に一回程度呼び出してください。呼び出されない場合使用メモリが増えつづけます。注意してください。
+
+version 10.2.5
+
+    GC is no longer called unless the user calls Clover.gc ().  Mainly because of performance.  Call Clover.compaction () once every 1000 times in the main loop.  If it is not called, memory usage continues to increase.  be careful. 
+
+
+version 10.2.4
+
+    Optimize List Container Library.
+
+version 10.2.3
+
+    Fixed finalize method bug. Now you can use the method using GC in the finalize method.
+
+version 10.2.2
+
+    Added erase(3), idlok(3), idcok(3) method.
+
+version 10.2.1
+
+    Java Script Reflection.
+
+version 10.2.0
+
+    Fixed the bug of REPL
+
+version 10.1.9
+
+    Implement tyclover2 for Java Script.
+
+version 10.1.8
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.7
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.6
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.5
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.4
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.3
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.2
+
+    Class field and field can have been declared by "val" keyword. It's readonly field.
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.1
+
+    Continue to implement the output of Java Script source 
+
+version 10.1.0
+
+    Continue to implement the output of Java Script source 
+
+version 10.0.9
+
+    Continue to implement the output of Java Script source 
+
+version 10.0.8
+
+    Continue to implement the output of Java Script source 
+
+version 10.0.7
+
+    Method default parametor bug.
+    
+    Started the output of Java Script source 
+
+version 10.0.6
+
+    Fixed AND operator on ULong type.
+
+version 10.0.5
+
+    Fixed finalizer bug.
+
+version 10.0.4
+
+    LLVMコマンド関連。
+
+version 10.0.4
+
+    LLVM command related.
+
+version 10.0.3
+
+    LLVM 7.0が推奨になりました。
+
+version 10.0.3
+
+    LLVM 7.0 is now recommended.
+
+version 10.0.2.
+
+    AndroidのtermuxでJITを動かしました。
+
+    LLVM 7.0に対応。
+
+    JITのコンパイル時手違いでコンパイルできなかった問題を修正。
+
+version 10.0.2.
+
+    I ran JIT on Android's termux. 
+
+    It corresponds to LLVM 7.0. 
+
+    Fixed an issue that could not be compiled with JIT compile time mistake. 
+
+version 10.0.1
+
+    Androidのtermuxで動作確認
+
+version 10.0.1
+
+    Running test of Android termux.
+
+version 10.0.0
+
+    String.deleteWithRange, String.deleteAtを追加。エラーメッセージ数を8に変更。
+
+version 10.0.0
+
+    Added String.deleteWithRange, String.deleteAt. Changend parser error message max as 8.
+
+version 8.3.1
+
+    エラーメッセージのバグを修正。getmaxx, getmaxyをioctlを使うようにしました。
+
+version 8.3.1
+    
+    Fixed error message bug. Now getmaxx and getmaxy use ioctl
+
+version 8.3.0
+
+    パーサーのエラーメッセージの出力を最大10個までに制限。
+
+version 8.3.0
+
+    Limit the output of parser error message to a maximum of 10. 
+
+version 8.2.9
+
+    クラスファイルのファイル名のバージョン情報の記号に@を使うように変更。makeファイルで$は使えない様子だったため。
+
+version 8.2.9
+
+    Changed to use @ for the symbol of the version information of class file file name.  Because it seemed that $ could not be used in the make file.
+
+version 8.2.8
+
+    クラスにバージョンがつけられるようになりました。分割コンパイル時に便利です。
+
+version 8.2.8
+
+    We now have versions for classes.  It is convenient for split compilation. 
+
+version 8.2.7
+
+    iclover2 -c "ls -al"などが動くようになりました。
+
+version 8.2.7
+
+    iclover2 -c "ls -al" etc now work now.
+
+version 8.2.6
+
+    The output of error message was changed. 
+
+version 8.2.6
+
+   エラーメッセージの出力を変えました。
+
+version 8.2.6
+
+    The output of error message was changed. 
+
+version 8.2.5
+
+    tryのcatch文が省略できるようになりました。
+
+version 8.2.5
+
+    The try catch statement can now be omitted.
+
+version 8.2.4
+
+    sprintf(String,List), printf(String, List)がいつかのバージョンよりエンバグしていました。すみません。
+
+version 8.2.4
+
+    sprintf (String, List), printf (String, List) were embagging from some version.  I'm sorry. 
+
+version 8.2.3
+
+    REPLのバグを多数修正。
+
+version 8.2.3
+
+    Many REPL bug fixes. 
+
+version 8.2.2
+
+    List.deleteByID, EqualableList.deleteByID, SortableList.deleteByIDを追加
+    tyclover2のバグを修正。(vicl向け)
+
+version 8.2.2
+
+    Add List.deleteByID, EqualableList.deleteByID, SortableList.deleteByID
+    Fixed a bug in tyclover2.  (for vicl) 
+
+version 8.2.1
+
+    tyclover2のバグを修正。(vicl向け)
+
+version 8.2.1
+
+    Fixed a bug in tyclover2.  (for vicl) 
+
+version 8.2.0
+
+    REPLのバグを修正
+
+version 8.2.0
+
+    Fixed a bug in REPL
+
+version 8.1.8
+
+    tyclover2のバグを修正
+
+version 8.1.8
+
+    Fixed the bug of tyclover2
+
+version 8.1.7
+
+    initializeメソッドもdynamic指定できるようになりました。
+
+version 8.1.7
+
+    The initialize method can also be dynamically specified. 
+
+version 8.1.6
+
+    クラスメソッドもdynamic指定できるようになりました。
+
+version 8.1.6
+
+    Class methods can also be dynamically specified. 
+
+version 8.1.5
+
+    メソッドにdynamic指定ができるようになりました。動的にメソッドを実行できます。分割コンパイル時のmixin-layersで便利に使えると思います。
+
+version 8.1.5
+
+    Method can now be dynamically specified.  You can execute methods dynamically.  I think that it can be conveniently used in mixin-layers at split compilation.
+
+version 8.1.4
+
+    System.mvprintw(String,SortableList<ISortable>)の追加。
+
+version 8.1.4
+
+    Added System.mvprintw (String, SortableList).
+
+version 8.1.3
+
+    Hash.add, List.push(List), EqualableList.push(EqualableList), SortableList.push(SortableList)を追加。Listのadd(T)はあまり使用しないでください。addは要素の追加と言う意味でなく加算の意味で使用したいと思います。List.add(List)など。Listの要素の追加はpushを使ってください。
+   
+version 8.1.3
+
+    Added Hash.add, List.push (List), EqualableList.push (EqualableList), SortableList.push (SortableList).  Please do not use add (T) of List much.  I do not think that add is an element addition meaning but want to use it in the meaning of addition.  List.add (List) and so on.  To add the elements of List please use push.
+
+version 8.1.2
+
+    JITでif文の条件式に論理演算子がありなんども実行すると落ちるバグを修正。
+
+version 8.1.2
+
+    Fixed a bug in JIT where there is a logical operator in the conditional expression of the if statement and it goes down if it runs a lot.
+
+version 8.1.1
+
+    JITでクラスファイルのコンパイルを-O2から-O3に変更しました。
+
+version 8.1.1
+
+    Changed class file compilation from -O2 to -O3 in JIT. 
+
+version 8.1.0
+
+    実行時に落ちることがある大きなバグを修正しました。
+
+version 8.1.0
+
+    Fixed a major bug that may be lost at run time.
+
+version 8.0.2
+
+    JITでインストールされていないクラスがあったため、修正。
+
+version 8.0.2
+
+    Fixed as there were classes not installed by JIT. 
+
+version 8.0.1
+
+    ちょっと手違いで"ABC".sub(/.(.)./) { it2.items(0) } => Bが動きませんでした。動くようになりました。
+
+version 8.0.1
+
+    "ABC".sub (/.(.)./) {it2.items (0)} => B did not work with a slight mistake.  I got to move. 
+
+version 8.0.0
+
+    JITが今度こそ安定したと思います。JITを書き直しました。
+
+version 8.0.0
+
+    I think that JIT has stabilized this time.  I rewrote JIT. 
+
+version 7.5.2
+
+    Fixed bug of BuferTest
+
+version 7.5.1
+
+    Buffer.clear, Buffer.split, Buffer.add, Buffer.compare, System.memsetを追加。
+
+version 7.5.1
+
+    Added Buffer.clear, Buffer.split, Buffer.add, Buffer.compare, System.memset.
+
+version 7.5.0
+
+    クラスの分割コンパイル機能を入れました。コンパイル済みのクラスファイルにメソッドやフィールドを追加したい場合、inherit クラス名で良くなりました。mixin-layersとして使う場合はよりmixin-layersが厳密になり、後方のレイヤーのフィールドやメソッドにアクセスできません。リファクタリング時有効でしょう。
+
+    インタプリタのバグを修正。かなり致命的バグで、僕の環境では動いていましたが、動いたのが不思議なくらいのバグでした。すみません。
+
+    gccに対応。
+
+    古いARMに対応。(netwalkerで動きました)。ただしシェルモードはカーネルのバージョンが古すぎると動かない様子です。
+
+    バージョンアップする場合古いバージョンが残っていると動かないので、sudo make uninstallしてください。
+
+    あとクラスファイルの仕様が変わっているのでいままでのソースファイルの再コンパイルお願いします。
+
+version 7.5.0
+
+    I put in class divide compile function.  If you want to add methods and fields to a compiled class file, the inherit class name is better.  When used as mixin-layers, mixin-layers becomes more rigorous and you can not access the fields and methods of the backward layer.  It will be effective at refactoring.
+Fixed an interpreter bug.  It was a fairly fatal bug and it worked in my environment, but it was a strange bug that it worked.  I'm sorry.
+
+    It corresponds to gcc. 
+
+    It corresponds to the old ARM.  (It worked with netwalker).  However, shell mode seems to not work if the kernel version is too old. 
+    Upgrading Please do sudo make uninstall because it will not work if an old version is left. 
+    Since the specification of the class file has changed, recompile the source file up to now. 
+
+version 7.1.4
+
+    Buffer.toStringFromPointedPoint()のバグを修正。Buffer.head(), Buffer.tail()を追加。
+
+version 7.1.4
+
+    Fixed a bug in Buffer.toStringFromPointedPoint().  Added Buffer.head() and Buffer.tail().
+
+version 7.1.3
+
+    Buffer.toStringFromPointedPoint(), Buffer.toPointerAtPointedPoint()を追加。
+
+version 7.1.3
+
+    Added Buffer.toStringFromPointedPoint (), Buffer.toPointerAtPointedPoint ().
+
+version 7.1.2
+
+    エディッタのためにtyclover2を改良しました。
+
+version 7.1.2
+
+    I improved tyclover2 for the editor.
+
+version 7.1.1
+
+    tyclover2のバグを修正しました。
+
+version 7.1.1
+
+    A bug in tyclover 2 has been fixed.
+
+version 7.1.0
+
+    tyclover2のバグを修正しました。
+
+version 7.1.0
+
+    A bug in tyclover 2 has been fixed.
+
+version 7.0.9
+
+    型が違うリストを表現できるようになりました。
+    
+    {"AAA", 1} --> SortableList<ISortable>
+
+    elist { "AAA", 1 } --> EqualableList<IEqualable>
+
+    list { "AAA", 1 } --> List<Object>
+
+    printfの引数へリストを渡すことができます。
+
+version 7.0.9
+
+    You can now express lists of different types. 
+
+    {"AAA", 1} -> SortableList<ISortable>
+    elist {"AAA", 1} -> EqualableList<IEqualable>
+    list {"AAA", 1} -> List<Object>
+
+    You can pass a list to printf's arguments.
+
+version 7.0.8
+
+    シェルモードでコマンド結果をファイルに書き込むことができるようになりました。pwd > XXX; ls -al >> XXXなど。
+
+version 7.0.8
+
+    You can now write command results to a file in shell mode.  pwd > XXX; ls - al >> XXX and so on. 
+
+version 7.0.7
+
+    SortableListの表現に{"AAA", "BBB"}などと言う表現が使えるようになりました。
+
+    Arrayクラスにいくつかのメソッドが加わってます。
+
+    インターフェース同士の代入を厳密にするようになりました。
+
+    printf, sprintfにリストの表現も引数に取ることができるようになりました。
+
+version 7.0.7
+
+    You can use expressions such as {"AAA", "BBB"} etc in the expression of SortableList. Several methods are added to the Array class. We began to strictly assign interfaces to each other. Now printf, sprintf can now take a list representation as an argument.
+
+version 7.0.6
+
+    Fixed bug with getting command name from PATH environment variable
+
+version 7.0.5
+
+    When transferring a class, you can now assign an object to the transfer class.
+
+    class Path { path:delegate String; def initialize() {} }; b := Path(); a:String = b;
+
+version 7.0.4
+
+    Fixed REPL bug and appended Path Object completion.
+
+version 7.0.3
+
+    Fixed REPL bug
+
+version 7.0.2
+
+    Command has been able to get Path Object.
+
+version 7.0.1
+
+    Fixed command completion bugs.
+
+version 7.0.0
+
+    Refctoring REPL and fixed bugs. Now Clover2 REPL has gotten good completion like IDE.
+
+version 6.7.6
+
+    Fixed interpreter bug.
+
+version 6.7.5
+
+    Fixed interpreter bug.
+
+version 6.7.4
+
+    Appended 'regex "regex"' expression for regex for including # regex.
+
+    Command completion changes
+
+version 6.7.3
+
+    Some chages for tyclover2
+
+version 6.7.2
+
+    Fixed REPL bug.
+
+    Removed List.toSortableList, List.toEqualableList EqualableList.toSortableList.
+
+    Fixed Interface checking bug.
+
+version 6.7.1
+
+    Some chages for tyclover2
+
+version 6.7.0
+
+    Prevent memory overflow when block. Now when block number is 64 to 32.
+
+version 6.6.9
+
+    Add future to tyclover2
+
+version 6.6.8
+
+    Fixed exception message bug.
+
+version 6.6.7
+
+    Prevent from overflow when block. Now when block number is 16 to 64
+
+version 6.6.6
+
+    Appended tyclover2 program for getting type.
+
+version 6.6.5
+
+    appended System.nodelay.
+
+version 6.6.4
+
+    appended Null class for REPL
+
+    Fixed some bugs of REPL
+
+version 6.6.3
+
+    Fixed block object bug
+
+version 6.6.2
+
+    Appended System.setEscapeDelay and System.getEscapeDelay method.
+
+    Fixed bug of VM.
+
+version 6.6.1
+
+    Fixed bug of shell mode
+
+version 6.6.0
+
+    GCのバグを修正。
+
+    Command.selector()の追加。
+
+version 6.6.0
+
+    Fixed bug with GC.
+
+    Append Command.selector method.
+
+version 6.5.9
+
+    System.send,System.sendto, System.recv, Sytem.recvfromの追加。
+
+    Fixed bug of Buffer with string expression.
+
+version 6.5.9
+
+    Appended System.send,System.sendto, System.recv, System.recvfrom.
+
+    Fixed bug of Buffer with string expression.
+
+version 6.5.8
+
+    Improved String.indexOf, String.rindexOf algorism
+
+    Fixed bug of shell mode
+
+    Fixed bug of Command Class
+
+version 6.5.7
+
+    JITの改良。
+
+version 6.5.7
+
+    Improvement of JIT.
+
+version 6.5.6
+
+    JITのバグを修正。
+
+    iclover2のプロンプトの修正。iclover2の初期の文字列とカーソル位置を-s, -pオプションで指定できるようになりました。-cで一度コマンドを実行したら、プログラムを終了します。
+
+version 6.5.6
+
+    Fixed a bug with JIT
+
+    Fixed iclover 2 prompt. The initial character string and cursor position of iclover 2 can now be specified with the -s and -p options. Once the command is executed with -c, the program is terminated.
+
+version 6.5.5
+
+    JITのバグを修正。
+
+version 6.5.5
+
+    Fixed a bug with JIT
+
+version 6.5.4
+
+    インタプリタでls | lなどとするとインタプリタ自体が落ちるバグを修正。
+
+version 6.5.4
+
+    Fixed a bug in which the interpreter itself drops if ls | l, etc. in the interpreter.
+
+clover2 (6.5.3-1) unstable; urgency=medium
+
+	* Appended EqualableList.toList, SortableList.toList,
+	SortableList.toEqualableList method.
+	* Appended EqualableList.uniq, SortableList.uniq method
+
+version 6.5.2
+
+    例外のメッセージのバグを修正しました。
+
+version 6.5.2
+
+    Fixed the bug that which is the message of Exception.
+
+version 6.5.1
+
+    ブロックの戻り値は必要に応じて自動的にboxingやcastされていましたが、もう少し柔軟な仕組みにしています。if文の戻り値も同様です。
+
+    filterメソッドを各種基礎クラスに追加しています。以下は通ります。a:int = -1.filter { if(it == -1) { 0 } else { 2 } }。mapだと.cast("Integer")メソッドが必要となるため、追加しました。filterの場合はこの場合Integer型を返すため、aに代入されるときにunboxingされるため便利に使えると思います。
+
+version 6.5.1
+
+    The return value of the block was boxing and casting automatically as necessary, but it makes it a more flexible mechanism. The return value of the if statement is also the same.
+
+    We have added a filter method to various basic classes. Below you will find: a: int = -1.filter {if (== - 1) {0} els e {2}}. We added the map because it needs the .cast ("Integer") method. In the case of filter, in this case it returns Integer type, so it will be unboxing when assigning to a and I think that it can be used conveniently.
+
+version 6.5.0
+
+    IIteratorbleがインストールされていない問題を修正。すみません。大きなバグでした。Rangeを使うプログラムは動かなかったはずです。あとJITが安定しました。しかし、Clover2のエディッタの体感速度で測りましたが、JITとVMとの処理速度の差はあまりありません。(JITの方がメモリの消費量は多い)。あまりJITは意味がありませんね、、、うーん。あとClover2で作ったコンソールエディッタの体感速度ですが、小さなテキストの編集ならC言語で書いたvimとそんなに変わりません。ただし、1万行を超えるテキストをClover2で編集した場合、カーソル移動は問題ないんですが、undoしようとすると、やはり処理速度がだいぶ落ちます。でも、まあ、それなりに実用的な速度は出ていますね。参考まで。
+
+version 6.5.0
+
+    Fixed an issue where IIteratorble was not installed. Excuse me. It was a big bug. The program using Range should have not worked. And JIT became stable. However, although it measured by the sensory speed of Clover 2's editor, there is not much difference in processing speed between JIT and VM. (JIT consumes more memory). JIT has little meaning, is not it? It is the perceived speed of the console editor created with Clover 2, but if editing small texts it does not change much like vim written in C language. However, if you edit more than ten thousand lines of text with Clover 2, moving the cursor is fine, but if you try to undo, the processing speed drops a lot. But, well, as it is, the practical speed has come out. for your information.
+
+version 6.0.3
+
+    GCにバグがありました。リファレンスカウントの廃止。すみません。version 6.0.0からエンバグしてる様子です。
+
+version 6.0.3
+
+    Fixed the bug of GC. Stop to use Refference Count GC algorithm. I'm sorry. From version 6.0.0, there is the bug.
+
+version 6.0.2
+
+    シェルモードでロングオプションに対応していない問題に対応。
+
+version 6.0.2
+
+    Corresponds to problems not supporting long options in shell mode.
+
+version 6.0.1
+
+    ./configure --with-optmizeがシェルモードで実行されないバグを修正。
+
+version 6.0.1
+
+    Fixed bug of shellmode which is unable to run ./configure --with-optimize etc.
+
+version 6.0.0
+
+    JITに対応。raspberry pi 3でもClover2で作ったエディッタ(vicl)が実用的な速度で動きます。かなりClover2自体を高速化できました。ただし、JITではGCは自動的には行いません。ユーザーがClover.gc()を呼ぶ必要があります。メインループに入れてください。
+
+version 6.0.0
+
+    It corresponds to JIT. The raspberry pi 3 editor (vicl) made with Clover 2 moves at a practical speed. It was able to speed up Clover 2 itself considerably. However, in JIT, GC will not do it automatically. Users need to call Clover.gc (). Please put it in the main loop.
+
+version 5.9.9
+    
+    GCのアルゴリズムの修正。かなり速くなりました。Clover.compaction()を追加。エディッタなどずっと走っているプログラムではClover.compaction()をメインループに入れてください。メモリの消費量を抑えられます。
+    新しいGCのアルゴリズムにはJITは対応していません。JITは6.0.0で実装します。とりあえずリリース。
+    クラスファイルの仕様が変わっています。既存のソースの再コンパイルをお願いします。
+
+version 5.9.9
+
+    Modification of GC algorithm. It got fairly fast. Added Clover.compaction (). For a program running all the time, such as editor please put Clover.compaction () in the main loop. It can reduce memory consumption. JIT does not correspond to the new GC algorithm. JIT is implemented at 6.0.0. For the time being released. The specification of the class file has changed. Please recompile the existing source
+
+
+version 5.0.9
+
+    JIT のバグを修正しました。今度こそ、安定したと思います。
+
+version 5.0.9
+
+    Fixed a bug in JIT. I think that this time it was stable.
+
+version 5.0.8
+    
+    フィールドやクラスフィールドの多重代入が行えるようになりました。
+
+    JIT のバグを修正しました。今度こそ、安定したと思います。
+
+    クラスファイルの定義が変わりました。再コンパイルお願いします。
+
+    clone, initialize, nothingメソッドが自動的に定義されなくなりました。ソースの変更お願いします。
+
+    コメントのバグを修正。
+
+version 5.0.8
+
+    Multiple assignment of fields and class fields can now be performed.
+
+    Fixed a bug in JIT. I think that this time it was stable.
+
+    Chaged class file definition. Please re-compile the source files.
+
+    The clone, initialize, and nothing methods are no longer automatically defined. Please change the source.
+
+    Fixed comment bug.
+
+version 5.0.7
+
+    Fixed JIT bug and && or || bug.
+
+version 5.0.6
+
+    Tuning using memory. Fixed memory leaks.
+
+version 5.0.5
+
+    List.insert(index:int, list_:List<T>)の追加
+
+version 5.0.5
+
+    Added List.insert(index:int, list_:List<T>)
+
+version 5.0.4
+
+    &&と||の優先順位にバグがありました。修正。
+
+version 5.0.4
+
+    There was a bug in priorities of && and ||. Fix.
+
+version 5.0.3
+
+    Fixed Memory bug
+
+version 5.0.2
+
+    インタプリタが落ちてました。修正。
+
+version 5.0.2
+
+    Fixed Interpreter bug.
+
+version 5.0.1
+
+    GCのアルゴリズムを変えました。少し高速化したかもしれません。
+
+version 5.0.1
+
+    Chaged GC algorithm. Maybe Clover2 has been more faster.
+
+version 5.0.0
+
+    GCのアルゴリズムを変えました。少し高速化したかもしれません。
+
+version 5.0.0
+
+    Chaged GC algorithm. Maybe Clover2 has been more faster.
+
+version 4.9.8
+
+    Added Command.getErrorOutput():Command and Command.getOutputWithError():Command.
+
+version 4.9.7
+
+    Added nothing():SELF method to all classes
+
+version 4.9.6
+
+    Added Hash.map, Hash.selectValues, Hash.keyValues.
+
+version 4.9.5
+
+    Fixed bug with printw, wprintw.
+
+version 4.9.4
+
+    Fixed bug with comment. See code/CommentTest.clcl
+
+version 4.9.3
+
+    Fixed bug with used '#'
+
+version 4.9.2
+
+    クロージャー内で例外が起こった場合バグがありました。修正。
+
+version 4.9.2
+
+    Bug fixed of occuring a exception in closure.
+
+version 4.9.1
+
+    メソッドブロックのリファクタリング。lambdaによるブロックオブジェクトの戻り値は省略できないようになりました。（ソースの整理のため）
+
+version 4.9.1 
+
+    Refactoring method blocks. Return value of block object by lambda can not be omitted>. (For organizing the source)
+
+version 4.9.0
+
+    Fixed method result bug.
+
+    Fixed Generics bug.
+
+    Fixed block object bug
+
+    Added ? and : operator for null checking and exception checking.
+
+version 4.8.9
+
+    Fixed JIT bug
+
+version 4.8.9
+
+    Fixed JIT bug
+
+version 4.8.8
+
+    1_000 == 1000
+
+    var a = 1 <==> var a:int = 1 <==> a := 1
+
+version 4.8.8
+
+    1_000 == 1000
+
+    var a = 1 <==> var a:int = 1 <==> a := 1
+
+version 4.8.7
+
+    Bufferクラスにバグがありました。修正。
+
+version 4.8.7
+    
+    Fixed Buffer class bug.
+
+version 4.8.6
+
+    Buffer.cloneにバグがありました。修正。
+
+version 4.8.6
+    
+    Fixed Buffer.clone bug.
+
+version 4.8.6
+
+    SortableListとSortableArrayにcompareメソッドを追加。
+
+version 4.8.5
+
+    SortableListとSortableArrayにcompareメソッドを追加。
+
+version 4.8.5
+
+    Appended compare method to SortableList and SortableArray.
+
+version 4.8.4
+
+    Buffer.initialize にappedableフラグを追加しました。メモリーをコピーしないでBufferクラスが作れます。
+
+version 4.8.4
+
+    Appended appendable flag to Buffer.initialize. You can make Buffer class without copying memory.
+
+version 4.8.3
+
+    各種基礎クラスにadd,next,prevメソッドを追加。ISortableインターフェスにaddメソッドを追加。IIteratorableインターフェースを追加。RangeクラスのGenerics引数インターフェースはIIteratorableになりました。RangeクラスはIIteratorableインターフェースを満たさないといけません。ソースの変更が必要となります。その代わり"A".."D"などが動きます。SortableListクラスにsumメソッドを追加。RangeクラスにtoList(),toEqualableList(),toSortableList()メソッドを追加。String.clclの主要なメソッドの戻り値や引数がEqualableListからSortableListに変更されています。Stringを使ったコードで引数の戻り値の型をEqualableList<String>に指定していた場合ソースの変更が必要となります。すみません。
+
+version 4.8.3
+
+    Added add, next, prev methods to various basic classes. Added add method to ISortable interface. Added IIteratorable interface. The Generics argument interface of the Range class is now IIteratorable. The Range class must satisfy the IIterato rable interface. Source change is required. Instead, "A" .. "D" etc works. Added sum method to SortableList class. Added toList (), toEqualableList (), toSortableList () method to Range class. The return value and argument of the main method of String.clcl has changed from EqualableList to SortableList. If you used String to specify the argument return type as EqualableList <String> in the code, you will need to change the source. Excuse me.
+
+version 4.8.2
+
+    __BEGIN___, ___END___で囲ったソースがクラスのコンパイル時、コンパイル前に実行されるようになりました。
+
+version 4.8.2
+
+    ___ BEGIN___, ___END___ enclosed sources are now executed before compiling, when compiling classes.
+
+version 4.8.2
+
+version 4.8.1
+
+    リフレクションによるcloneメソッドの作成にバグがありJITでテストが動かないバグを修正。
+
+version 4.8.1
+
+    Fixed a bug that caused a bug in the creation of clone method by reflection and the test did not work with JIT.
+
+version 4.8.0
+
+    List.multiplyWithSelf(n:Int):SELF<T>;を加えました。
+    List.selectWithSelf(block_:lambda(T):bool):SELF<T>;を加えました。
+    List.subListWithSelf(start:int, end:int):SELF<T>;を加えました。
+    List.fillWithSelf(start:int, end:int, item:T):SELF<T>;を加えました。
+    List.fillWithSelf(item:T):SELF<T>;を加えました。
+    List.reverseWithSelf():SELF<T>;を加えました。
+    List.shuffleWithSelf():SELF<T>;を加えました。
+
+version 4.8.0
+
+    Added List.multiplyWithSelf(n:Int):SELF<T>;
+    Added List.selectWithSelf(block_:lambda(T):bool):SELF<T>;
+    Added List.subListWithSelf(start:int, end:int):SELF<T>;
+    Added List.fillWithSelf(start:int, end:int, item:T):SELF<T>;
+    Added List.fillWithSelf(item:T):SELF<T>;
+    Added List.reverseWithSelf():SELF<T>;
+    Added List.shuffleWithSelf():SELF<T>;
+
+version 4.7.9
+
+    List.deleteWithRange, EqualableList.deleteWithRange, SortableList.deleteWithRangeが対象となるオブジェクト自身の状態を変えるようになりました
+
+version 4.7.9
+
+    List.deleteWithRange, EqualableList.deleteWithRange, SortableList.deleteWithRange have changed inner stat.
+
+version 4.7.8
+
+    REPLのバグを修正。
+
+version 4.7.8
+
+    Fixed bug of REPL.
+
+version 4.7.7
+
+    モジュールのSELFとGenericsの関係のバグを修正。
+
+version 4.7.7
+
+    Fixed a bug in relation between module SELF and Generics.
+
+version 4.7.6
+
+    Added System.mvprintw(y:int, x:int, str:String);
+    Added map method to Numeric classes
+
+version 4.7.6
+
+    Added System.mvprintw(y:int, x:int, str:String);
+    Added map method to Numeric classes
+
+version 4.7.5
+    
+    Class.getMethods(); を加えました。
+    String.rindexOf();を加えました。
+    Clover.primitiveClassToBoxingClass(name:String);を加えました。
+    Clover.boxingClassToPrimitiveClass(name:String);を加えました。
+    Bool.if(lambda):Anoymous?を加えました。
+    Bool.ifWithException(lambda):Anoymous?を加えました。
+    ? post operator. --> str:String? = null; str?.match(/./). はNull Pointer Exceptionにはなりません。 str := "ABC"; str?.match(/./). これは動きます。
+    ==と!= 演算子をユーザーオブジェクトに入れました。str:String? = null; assert(str == null). これは動きます。
+
+version 4.7.5
+    
+    Added Class.getMethods();
+    Added String.rindexOf();
+    Added Clover.primitiveClassToBoxingClass(name:String);
+    Added Clover.boxingClassToPrimitiveClass(name:String);
+    Added Bool.if(lambda):Anoymous?
+    Added Bool.ifWithException(lambda):Anoymous?
+    Added ? post operator. --> str:String? = null; str?.match(/./). It doesn't throw Exception. str := "ABC"; str?.match(/./). It's works.
+    Added == and != operator for User Object. str:String? = null; assert(str == null). It works.
+
+version 4.7.4
+
+    List.delete(int,int)を削除。
+
+version 4.7.4
+
+    Removed List.delete(int,int).
+
+version 4.7.3
+
+    Added List.detete(int,int).
+
+version 4.7.2
+
+    テストがおちていました。修正。 
+
+version 4.7.2
+
+    Fixed make test bug
+
+version 4.7.1
+
+    Fixed a bug that could not define a field with generic class nested within class.
+
+version 4.7.1
+
+    クラスの中で入れ子になるジェネリクスのクラスを持つフィールドを定義できないバグを修正。
+
+version 4.7.1
+
+    Fixed a bug that could not define a field with generic class nested within class.
+
+version 4.7.0
+
+    メモリーセーフなポインタを入れました。詳しくはマニュアルを見てください。
+
+version 4.7.0
+
+    Append memory safe pointer(Buffer class) to Clover2. See manual
+
+version 4.6.9
+
+    THraedのバグを修正しました。
+
+version 4.6.9
+
+    Fixed bug of thread
+
+version 4.6.8
+
+    amd64では--with-jitと--with-threadが安定しました。
+
+verson 4.6.8
+
+    --with-jit and --with-thread is stable on amd64
+
+
+version 4.6.7
+
+    Now Clvoer2 can have runned on sparc64, maybe other Bigendian Platform.
+
+version 4.6.6
+
+    メモリのバグを修正。i686で動作確認。ppc64はまだです。
+
+version 4.6.6
+
+    Fixed memory bug. Test on i686. I have not testted on ppc64 yet.
+
+version 4.6.5
+
+    --with-threadオプションをconfigurenに追加。--with-optimizeとは同時は付けられません。もし、--with-threadを付ける場合は--with-jitも付けることをお勧めします。
+
+    JITでのThraedにバグがありました。修正。
+
+version 4.6.5
+
+    Added --with-thread option to configuren. --with-optimize can not be attached at the same time. If you add -with-thread we recommend --with-jit as well.
+
+    Fixed bug of jit with thread
+
+version 4.6.4
+
+    --with-threadオプションをconfigurenに追加。もし--with-threadをつけないと最適化が有効になります。threadは使えませんが、、、。
+
+version 4.6.4
+
+    Added --with-tread option to configure. If compile without --with-thread, optimizatioin is enabled.
+
+version 4.6.3
+
+    構造体の初期化の問題を修正。
+
+version 4.6.3
+
+    Fix bug of structure variable initialization.
+
+version 4.6.2
+
+    メソッドの引数に関するバグがあったため修正。
+
+version 4.6.2
+
+    Fixed bug of method arguments.
+
+version 4.6.1
+
+    each内でbreakするとバグがあったため、修正。
+
+version 4.6.1
+    
+    Fixed a bug in break at method block.
+
+version 4.6.0
+
+    JITでblock中に例外が起こった場合、catch出来ないバグを修正。List.eachなどでbreakできるようになりました。
+
+version 4.6.0
+    
+    Fixed a bug that can not be caught when an exception occurs in block in JIT. You can now break with List.each and so on.
+
+version 4.5.9
+
+    String.deleteの仕様が変わっています。
+
+version 4.5.9
+
+    Chaged String.delete definition.
+
+version 4.5.8
+
+    lsやmakeなどがClover.controllingTerminalProgramsから外されました。lsを端末制御したい場合はシェルモードでlsと書き、端末制御したく無い場合はls()と書いてください。
+
+version 4.5.8
+
+    ls, make etc. have been removed from Clover.controllingTerminalPrograms. If you want to control ls, write ls in shell mode and ls () if you do not want terminal control.
+
+version 4.5.7
+
+    メモリのバグがありました。修正。重要なバグでした。
+
+version 4.5.7
+
+    Fix important memory bugs.
+
+version 4.5.6
+
+    String.deleteメソッドを追加しました。
+
+    Rangeのバグを修正しました。
+
+    シェルモードのバグを修正しました。
+
+version 4.5.6
+
+    append String.delete method to Clover2 Library.
+
+    Fixed Range class bug.
+
+    Fixed shell mode bug.
+
+version 4.5.5
+
+    バグフィックス。
+
+version 4.5.5
+    
+    Fixed Bug
+
+version 4.5.4
+
+    変数宣言にvar, valを入れました。raedonlyの変数はvalにて宣言できます。
+
+version 4.5.4
+    
+    Added "var", "val" keyword for local variable assignment. You can declare readonly varialbe with "val" keyword.
+
+version 4.5.3
+
+    バグフィックス。安定したと思います。
+
+version 4.5.3
+
+    Fixed bug.Maybe stable version.
+
+version 4.5.2
+
+    バグフィックス。
+
+version 4.5.2
+
+    Fixed bug.
+
+version 4.5.1
+
+    C-FFIはオプショナルになりました。使う場合はconfigureに--with-c-ffiを付けてください。
+
+version 4.5.1
+
+    I make c-ffi optional. If you want to use it, please add --with-c-ffi to configure option.
+
+version 4.5.0
+
+    Cに対するブリッジを入れました。関数と定数が取り込めます。
+
+    Bufferクラスはpointerクラスにunboxingされます。
+
+version 4.5.0
+
+    I put a bridge for C. Functions and constants can be imported.
+
+    Buffer class is unboxing to pointer class
+
+version 4.2.7
+
+    String.inesrtのバグを修正しました。
+
+version 4.2.7
+
+    Fixed bug of String.insert.
+
+version 4.2.6
+
+    Hashクラスの値の簡易表記が変わりました。a:Hash<String, Integer> = ["AAA"=>2, "BBB"=>3].
+
+    コンパイラの使用メモリを減らしました。(1Gは必要だと思います)
+
+    ppc64, i386でコンパイル、テストしました。
+
+version 4.2.6
+
+    The simplified representation of the value of the Hash class has changed. a:Hash<String, Integer> = ["AAA"=>2, "BBB"=>3].
+
+    Reduce the memory clover2 compiler used
+
+    test in the ppc64, i386
+
+version 4.2.5
+
+    Commandクラスのバグを修正。
+
+    JITのバグを修正。
+
+    シェルモードのバグを修正。
+
+version 4.2.5
+    
+    Fixed bug of Command Class.
+
+    Fixed bug of JIT
+
+    Fixed bug of Shell mode.
+
+    Hashクラスの値の簡易表記が変わりました。a:Hash<String, Integer> = ["AAA"=>2, "BBB"=>3].
+
+version 4.2.4
+
+    whenの仕様が変わってます
+
+version 4.2.4
+
+    changed when expression
+
+version 4.2.3
+
+    いくつかのバグを直しました。
+
+version 4.2.3
+
+    Fixed some bugs
+
+version 4.2.2
+
+    JITのランタイムをライブラリに追加しました。(libclover2.so)
+
+    Compile 時のリフレクションでJITを有効にしました。
+
+version 4.2.2
+
+    Added JIT runtime to dynamic library (libclover2.so)
+
+    Turn on running JIT method on Compile Time Scripting.
+
+version 4.2.1
+
+    JITで||と&&にバグが有ったため修正
+
+    JITでb:=123; -b == 0が真になるバグを修正。OP_REVERSEのバグを修正。
+
+version 4.2.1
+
+    Fixed JIT bugs.
+
+version 4.2.0
+
+    GCのアルゴリズムの修正。GC中のファイナライザで更にメモリが必要になったらセグメンテーション違反していましたが、修正。
+
+    LLVMがちゃんと対応できてませんでしたが、修正。LLVM3.8とLLVM4.0 laterに対応。
+
+version 4.2.0
+
+    Modification of GC algorithm. Segmentation violated when finalizers in GC needed more memory, but it was fixed. LLVM was not able to respond properly, but it was fixed. Corresponds to LLVM 3.8 and LLVM 4.0 later.
+
+version 4.1.8
+    
+    クラスのソースファイルのincludeファイルの検索パスのルーチンを作りました。カレントディレクトリだけでなく$PREFIX/share/clover2や~/.clover2にあるファイルも検索されます。cclover2 -core a.clclなどでinclude "MyOwnLibrary.clcl"などすれば基礎ライブラリの改造が出来ます。
+
+    クラスファイルとモジュールとインクルードファイルのファイルの検索ルーチンのバグを修正しました。カレントディレクトリのクラスファイルが優先されます。またスクリプトファイルがある位置のディレクトリも検索ルーチンに加わっています。
+
+    例外の仕様を変えました。メソッド呼び出し時のみだけでなく、スクリプト最上位で例外が起こってもcatchできます。
+    例外のメッセージの出力をClover.onExceptionで行うようにしました。CGIや端末制御しているときは出力先を変えてください。Clover.onException(String,bool):staticをオーバーライドすればそう出来ます。
+
+    -xなどのパースが通らないバグを修正
+
+    /を含む文字列が演算子だと思われずにコマンドだと思われるバグを修正
+
+    クラスの自動コンパイルを廃止しています。
+
+version 4.1.8
+
+    I created a search path routine for include files of class source files. Files in $ PREFIX / share / clover 2 and ~ /. Clover 2 are searched in addition to the current directory. If you include "MyOwnLibrary.clcl" etc in cclover2 - core a.clcl etc, you can modify the basic library. Fixed a bug in file search routines for class files, modules, and include files. The class file of the current directory takes precedence. Also, the directory where the script file is located is also added to the search routine. I changed the specification of the exception. You can catch not only when calling a method but also when an exception occurs at the top of the script. We have made Clover.onException output the exception message. Please change the output destination when CGI or terminal control. You can do so by overriding Clover.onException (String, bool): static. Fixed a bug that parsing does not pass like -x Fixed a bug that seems to be a command without a character string including a fix thought to be an operator.The class compilation is abolished.
+
+version 4.1.7
+    
+    Clover.onExceptionフックを作りました。例外が起こったときに実行されます。
+
+version 4.1.7
+
+    I made a Clover.onException hook. It is executed when an exception occurs.
+
+version 4.1.6
+    
+    ラムダの配列でラムダのオブジェクトがマークされない問題を修正。
+
+version 4.1.6
+    
+    Fixed lambda array object bug.
+
+version 4.1.5
+    
+    ラムダの配列に対するラムダの実行ができなったので、できるようにしました。
+
+    cloneメソッドのバグを修正。
+
+version 4.1.5
+
+    I have made it possible to execute lambda on lambda's array, so I can do it. Fixed a bug in the clone method.
+
+version 4.1.4
+
+    PathクラスはStringクラスにメソッドを委譲するようになりました。
+
+    Added curses library
+
+version 4.1.4
+
+    Now Path class delegates String class
+
+    Added curses library
+
+version 4.1.3
+
+    Cloneメソッドのバグを修正。
+
+version 4.1.3
+
+    Fiexed clone method bugs.
+
+version 4.1.2
+
+    Cloneメソッドのバグを修正。
+
+    クラスフィールドやフィールドの++, --などが動いていなかったため修正。
+
+version 4.1.2
+
+    Fixed clone method bugs
+
+    Fixed because class fields and field ++, - and so did not move.
+
+version 4.1.1
+
+    Cloneメソッドのバグを修正。
+
+    string expressionに、その箇所のあとのスペースが削除されるバグを修正しました。
+
+    free_objectにバグが有ったため修正。
+
+version 4.1.1
+
+    Fixed clone method bugs
+
+    Fixed a bug in string expression that removes spaces after that place.
+
+    Fixed because there was a bug in free_object.
+
+version 4.1.0
+
+    IEqualableとISortableとIHashKeyにcloneメソッドが追加されました。cloneはコンパイル時のリフレクションで自動的に実装されるようになりました。詳しくはReflection.clclを見てください。
+
+version 4.1.0
+
+    The clone method has been added to IEqualable, ISortable and IHashKey. clone is now automatically implemented by reflection at compile time. See Reflection.clcl for details.
+
+version 4.0.9
+
+    I changed the memory management format of the extension library object.
+
+version 4.0.9
+
+    拡張ライブラリのオブジェクトのメモリの管理形式を変えました。
+
+version 4.0.9
+
+    I changed the memory management format of the extension library object.
+
+version 4.0.8
+
+    Systemにいくつかのメソッドを追加。
+
+    libbsd-devもしくはlibbsd-develのライブラリが必要になりました。(オプション。あるとSystem.getbsizeが有効になる)
+
+    REPLの補完でSystemクラスのクラスフィールドの補完も有効になりました。
+
+    Socketのライブラリをつくりました。詳しくはSocket.clclを見てください。
+
+    signalシステムコールの移植。
+
+    ioctlシステムコールの移植。
+
+    selectシステムコールの移植。
+
+    mutex のバグを直した。
+
+version 4.0.8
+
+    Added several methods to System.
+
+    A library of libbsd-dev or libbsd-devel is required. (Optional, if System.getbsize is enabled)
+
+    With completion of REPL, completion of class field of System class is also effective.
+
+    I made a library of Socket. See Socket.clcl for details.
+
+    port of the system call.
+
+    Porting the ioctl system call.
+
+    Porting of select system call
+
+    Mutex bug may be fixed.
+
+version 4.0.7
+
+    String.removeTagでセキュリティホールが見つかりました。修正。
+
+version 4.0.7
+
+    I found Security holl of String.removeTag. Fix.
+
+version 4.0.6
+
+    正規表現で/を使う文字を使っていると正規表現の終端だと処理してしまうバグが有りました。\/で回避できるようにしました。
+    
+    String.removeTag()の追加
+
+version 4.0.6
+
+    There was a bug that will handle if it is the end of a regular expression if you use a character that uses / in regular expressions. I tried to avoid it with \/.
+ 
+    Addition of String.removeTag ()
+
+version 4.0.5
+
+    SystemクラスのクラスフィールドはSystem.という表記を省略できるようになりました。つまりaccess(fname, R_OK) == 0などはコンパイルが通ります。
+
+    String.decodeFromForm()をいれました。CGIで便利です
+
+    識別子の処理をリファクタリング。バグがあったと思います。修正。
+
+    同じクラスのクラスメソッドとクラスフィールドの呼び出し時にクラス名を省略できるようになりました。
+
+version 4.0.5
+
+    The class field of the System class can now omit the notation System. In other words, access(fname, R_OK) == 0 etc is compiled.
+
+    I put String.decodeFromForm (). It is useful in CGI
+
+    Refactoring processing of identifiers. I think there was a bug. Fix.
+
+    Class names can now be omitted when calling class methods and class fields of the same class.
+
+version 4.0.4
+
+    Multi line stringのインデントのバグを修正。
+
+version 4.0.4
+
+    Multi line string bug was fiexed.
+
+version 4.0.3
+
+    Regexのバグを修正。
+
+    String Expression(\{})の中は式じゃなくてブロックになりました。
+
+version 4.0.3
+
+    Fixed regex bug.
+
+    Inside String Expression (\{}) it became a block instead of an expression
+
+version 4.0.2
+
+    CSVファイルの入出力をサポート。ファイルのロック用のメソッドの用意。
+
+    コンパイラーにバグがありました。修正。
+
+    JITのバグを修正
+
+version 4.0.2
+
+    CSV File was supported. flock was supported.
+
+    Fixed compiler bug.
+
+    Fixed JIT bug.
+
+version 4.0.1
+
+    CGIのためのライブラリを作り始めています。System.setlocaleの追加。System.setenvの第３引数を省略できるようにしました。
+
+    コンパイラーにバグがありました。修正。
+
+version 4.0.1
+
+    Started to make CGI library. System.setlocale was appended.
+
+    Fixed compiler bug.
+
+version 4.0.0
+
+    スレッドを追加しました。詳しくはThreadクラスの解説を読んでください。
+
+    def allocSize(): int でヒープから取得するメモリのサイズを指定できるようになりました。主に拡張ライブラリで使います。
+
+    allocatedSize()スペシャルメソッドを追加しました。オブジェクトのヒープから取得したメモリのサイズを返します。主に拡張ライブラリ使うもので特にユーザーは使うことがないでしょう。
+
+    headOfmemory()スペシャルメソッドを追加しました。オブジェクトのヒープから取得したメモリの先頭サイズを返します。主に拡張ライブラリで使うもので特にユーザーは使うことがないでしょう。
+
+    クラスファイルの仕様が変更されてます。コンパイルされたクラスファイルは再度コンパイルが必要になってます。再コンパイルをお願いします。
+
+    UShortのboxingのbugをfix
+
+version 4.0.0
+
+    Threads were added. For details, please read the explanation of Thread class.
+
+    def allocSize (): int allows you to specify the size of the memory to get from the heap. We mainly use it in extension library.
+
+    The allocatedSize () special method was added. Returns the size of the memory retrieved from the heap of the object.
+        It mainly uses extended libraries, so users will not use them in particular.
+
+    The headOfmemory () special method was added. Returns the starting size of the memory obtained from the heap of the object. It is mainly used for extended libraries, so users will not use them in particular.
+
+    The specification of the class file has been changed. Compiled class files need to be recompiled again. Please recompile.
+
+    Fixed boxing bug of UShort
+
+version 3.7.6
+
+    Multi line stringを入れました。
+
+    CloverクラスにgetMethod(name:String), getClassField(name:String), getField(name:String)を入れました。またClassクラスにnumFields, numMethods, numClassFieldsをフィールドを追加。
+
+    CloverクラスにisLoaded(name:String), isDefined(name:String)クラスを追加。
+
+    CloverクラスにappendClassを入れました。
+
+    オブジェクトの作成時newを省略できるようになりました。
+
+version 3.7.6
+
+    Added Multi line stirng.
+
+    I added getMethod (name: String), getClassField (name: String), getField (name: String) to lover class. Also add numFields, numMethods, numClassFields fields to the Class class
+
+    I added Clover.isLoaded(name:String), Clover.isDefined(name:String).
+
+    I added Clover.appendClass(code:String).
+
+    new can now be omitted when creating objects.
+
+version 3.7.5
+    
+    Added Compile time scripting and Reflection.
+
+version 3.7.4
+
+    getppid, setsid, getsid, setpgrp, setpigdをSystemクラスに追加しました。
+
+    REPLで配列に対するメソッドコールの補完にバグが有りました。修正。
+
+version 3.7.4
+
+    Added getppid, setsid, getsid, setpgrp, setpigd to System Class
+    
+    There was a bug in completing method calls for arrays in REPL. Fix.
+
+version 3.7.3
+
+    hashの値の表現に簡易表現を追加しました。a:Hash<String,Integer> = [ "AAA":2, "BBB":3 ]はコンパイルが通ります。
+
+version 3.7.3
+
+    simplified expression was added to the expression of the value of hash. a: Hash <String, Integer> = ["AAA": 2, "BBB": 3] is compiled
+
+version 3.7.2
+
+    変数への数値の代入時にint --> floatなどdoubleやfloatの場合は自動変換しなくなりました。
+    (int --> long)などは暗黙のキャストが行われます
+
+version 3.7.2
+
+    When assigning a numeric value to a variable, it does not automatically convert to double or float such as int -> float. (int -> long) etc. are implicitly cast
+
+version 3.7.1
+
+    ローカル変数の多重代入を入れました。
+
+    > (a, b) := (1,2)
+    > (a, b) = (b, a)
+
+    タプルの表記で簡単なものを追加しました。
+
+    (1,"AAA", 1.1)  # == Tuple<Integer, String, Double>
+
+version 3.7.1
+
+    Added Multiple Assignements for local variables
+
+    > (a, b) := (1,2)
+    > (a, b) = (b, a)
+
+    An easy thing was added by the notation of a tuple
+
+    > (1,"AAA", 1.1)  # == Tuple<Integer, String, Double>
+
+version 3.7.0
+
+    コマンドライン引数のバグを修正。
+
+    System.getopt, System.getopt_long, System.getopt_long_onlyを追加。
+
+    -clean, --version, -versionオプションの廃止（-> 同名のコマンドライン引数が取れなくなるため)
+
+version 3.7.0
+
+    Fixed command line argument bug.
+
+    System.getopt, System.getopt_long, System.getopt_long_only added.
+
+    -clean, --version, -version option is deprecated (-> command line argument of the same name can not be taken)
+
+version 3.6.9
+    
+    whenにパターンマッチングが入りました。以下のように使います。
+
+    e := new Array<String>();
+
+    f := when(e.className()) {
+        match /.+<String>/: {
+            123;
+        }
+        else {
+            456;
+        }
+    }
+
+    Clover.test("when test5", f == 123);
+
+version 3.6.9
+
+    Pattern matching has been entered into when. I use it as follows.
+
+    e := new Array<String>();
+
+    f := when(e.className()) {
+        match /.+<String>/: {
+            123;
+        }
+        else {
+            456;
+        }
+    }
+
+    Clover.test("when test5", f == 123);
+
+version 3.6.8
+
+    メモリリークといくつかのバグを修正しました。
+
+version 3.6.8
+
+    Fixed some bugs and memory leak.
+
+version 3.6.7
+
+    コマンドのサスペンドがversion 3.6.3でバグになっていました。修正。
+
+version 3.6.7
+
+    The command suspend was a bug in version 3.6.3. Fix.
+
+version 3.6.6
+
+    cd コマンドを実行した時に環境変数PWDを設定するようになりました。
+
+    System.setenvの戻り値をBufferからStringに変更しました
+
+version 3.6.6
+
+    The environment variable PWD is now set when the cd command is executed.
+
+    System.setenv's return value changed from Buffer to String
+
+version 3.6.5
+
+    REPLの補完のバグを修正。
+
+version 3.6.5
+
+    Fixed REPL complementary bug.
+
+version 3.6.4
+
+    プリミティブ型じゃない配列に対するメソッドコールのバグを修正。
+
+    REPLの補完のバグを修正。
+
+    Clover.ARGV, ARGC, VERSIONを追加。
+
+version 3.6.4
+
+    Fixed a bug in method calls for arrays that are not primitive types.
+
+    Fixed REPL complementary bug.
+
+    Added Clover.ARGV and ARGC, VERSION.
+
+version 3.6.3
+
+    System.mbstowcs, System.wcstombsのAPIの変更。詳しくはString.clclを見てください。
+
+    System.tcgetatter, System.cfmakerawのAPIの変更。詳しくはCommand.clclを見てください。
+
+    REPLの補完のバグを修正。
+
+version 3.6.3
+
+    System.mbstowcs, System.wcstombs API changes. See String.clcl for details.
+    System.tcgetatter, System.cfmakeraw API change. See Command.clcl for details.
+
+    Fixed REPL complementary bug.
+
+version 3.6.2
+
+    Systemクラスのクラス名を省略できるようになりました。
+
+    各種システムコールの追加
+
+version 3.6.2
+
+    The class name of System class can be omitted.
+
+    Addition of various system calls
+
+version 3.6.1
+    
+    ポインタの演算子の右辺値はulongじゃなくても大丈夫になりました。a := 1; b := &a; b += 4は動きます。
+
+version 3.6.1
+
+    The right side value of the operator of the pointer is okay if it is not ulong. a: = 1; b: = & a; b + = 4 works.
+
+version 3.6.0
+
+    ファイルクラスにnew File("fname.txt", "w");などを入れました。内部的にはfopenやfwrite, freadされてバッファリングされます。
+
+version 3.6.0
+
+    I put new File ("fname.txt", "w"); etc in the file class. Internally it is fopen, fwrite, fread and buffered.
+
+version 3.5.9
+
+    メソッドの引数で数値型の変換は暗黙で行われるようになりました。int --> ulongなど。
+
+version 3.5.9
+
+    Numeric type conversion is now implicit in method arguments. int -> ulong and so on.
+
+version 3.5.8
+
+    configureの他のCPUへの対応やディレクトリ内のファイルの整理をしました。
+
+versioin 3.5.8
+
+    I configured configure and handle other CPUs and organize files in the directory.
+
+version 3.5.7
+
+    unset 変数名という命令を加えました。変数の宣言を取り消します。
+
+    PowerPCに対応しました。
+
+version 3.5.7
+
+    We added an instruction called unset variable name. Cancel the variable declaration.
+
+    It corresponds to PowerPC.
